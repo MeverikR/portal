@@ -1,0 +1,12 @@
+.idea
+.vscode
+*.pyc
+venv
+node_modules/
+client/node_modules
+.venv
+composer.lock
+vendor
+metrics.txt
+sql
+config/config.dev.yml

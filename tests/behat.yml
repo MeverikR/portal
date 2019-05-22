@@ -1,0 +1,17 @@
+# настройки фреймворка для тестирования.
+# URL сервера настраивается именно здесь
+
+default:
+    formatters:
+        pretty: true
+    suites:
+        default:
+            contexts:
+                - FeatureContext
+                - Imbo\BehatApiExtension\Context\ApiContext
+    extensions:
+        Imbo\BehatApiExtension:
+            apiClient:
+                base_uri: http://127.0.0.1:5556
+                timeout: 5.0
+                verify: false

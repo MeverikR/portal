@@ -1,0 +1,13 @@
+*.pyc
+__pycache__
+report.xlsx
+/venv
+/.env
+.venv
+node_modules
+*.log
+*.xml
+*.xls
+*.xlsx
+*.pdf
+*.egg-info

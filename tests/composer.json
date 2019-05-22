@@ -1,0 +1,15 @@
+{
+    "name": "listener/tester",
+    "description": "Test tool for Listener Portal 2.0",
+    "type": "project",
+    "require": {
+        "behat/behat": "^3.5",
+        "imbo/behat-api-extension": "^2.1"
+    },
+    "authors": [
+        {
+            "name": "",
+            "email": ""
+        }
+    ]
+}
